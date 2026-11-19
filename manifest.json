@@ -1,0 +1,25 @@
+{
+  "schema": 2,
+  "defaultLocale": "zh-rCN",
+  "locales": [
+    {
+      "id": "zh-rCN",
+      "name": "Simplified Chinese",
+      "nativeName": "简体中文",
+      "files": {
+        "gems.json": "6bb336a9ef6f41f0788c084a7acacd8f5f65e975",
+        "item_metadata.json": "88b9e7bb4634b3569fde968296aa936afab73c6f",
+        "items.json": "3d38660983abf113d3c49611bbd3299142224984",
+        "meta.json": "05cadc4d8ef9ed3fdd9793ed18c005100a69e81a",
+        "monsters.json": "4e91f3db857afd69e3b3a0f4e3f7a5e4a007887b",
+        "passives.json": "7441f965f1e1ccc627ecb49a1255bc724f47115b",
+        "pob-ui.json": "177404c351f98c5a49aa036fd51d82cc8a491961",
+        "stats.json": "13c4042dd6d46da5844b24805d9c6efe9075f1ad",
+        "synonyms.json": "3666ad4b89044499c5840a74ef3acb59c59fcfbf",
+        "tags.json": "1acecaacbbbe9265e2ffee7feaeeec347bb3bbc4",
+        "ui.json": "1ae775a3d29e11bd8540836c5c2dada6442513b3",
+        "uniques.json": "2450bf1a8f2610ca4beb4b27f2cbe93de60f4329"
+      }
+    }
+  ]
+}

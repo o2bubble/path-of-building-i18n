@@ -1,0 +1,393 @@
+{
+  "headers": [
+    {
+      "zh": "物品种类",
+      "en": "Item Class"
+    },
+    {
+      "zh": "稀有度",
+      "en": "Rarity"
+    },
+    {
+      "zh": "品质",
+      "en": "Quality"
+    },
+    {
+      "zh": "闪避值",
+      "en": "Evasion Rating"
+    },
+    {
+      "zh": "能量护盾",
+      "en": "Energy Shield"
+    },
+    {
+      "zh": "护甲",
+      "en": "Armour"
+    },
+    {
+      "zh": "闪避与护甲",
+      "en": "Evasion and Armour"
+    },
+    {
+      "zh": "闪避与能量护盾",
+      "en": "Evasion and Energy Shield"
+    },
+    {
+      "zh": "护甲与能量护盾",
+      "en": "Armour and Energy Shield"
+    },
+    {
+      "zh": "需求",
+      "en": "Requirements"
+    },
+    {
+      "zh": "等级",
+      "en": "Level"
+    },
+    {
+      "zh": "力量",
+      "en": "Str"
+    },
+    {
+      "zh": "敏捷",
+      "en": "Dex"
+    },
+    {
+      "zh": "智慧",
+      "en": "Int"
+    },
+    {
+      "zh": "插槽",
+      "en": "Sockets"
+    },
+    {
+      "zh": "物品等级",
+      "en": "Item Level"
+    },
+    {
+      "zh": "堆叠大小",
+      "en": "Stack Size"
+    },
+    {
+      "zh": "物理伤害",
+      "en": "Physical Damage"
+    },
+    {
+      "zh": "元素伤害",
+      "en": "Elemental Damage"
+    },
+    {
+      "zh": "混沌伤害",
+      "en": "Chaos Damage"
+    },
+    {
+      "zh": "攻击暴击率",
+      "en": "Critical Strike Chance"
+    },
+    {
+      "zh": "暴击率",
+      "en": "Critical Strike Chance"
+    },
+    {
+      "zh": "每秒攻击次数",
+      "en": "Attacks per Second"
+    },
+    {
+      "zh": "每秒攻击",
+      "en": "Attacks per Second"
+    },
+    {
+      "zh": "武器范围",
+      "en": "Weapon Range"
+    },
+    {
+      "zh": "格挡几率",
+      "en": "Chance to Block"
+    },
+    {
+      "zh": "格挡率",
+      "en": "Chance to Block"
+    },
+    {
+      "zh": "施放时间",
+      "en": "Cast Time"
+    },
+    {
+      "zh": "冷却时间",
+      "en": "Cooldown Time"
+    },
+    {
+      "zh": "伤害效用",
+      "en": "Effectiveness of Added Damage"
+    },
+    {
+      "zh": "魔力消耗倍率",
+      "en": "Mana Multiplier"
+    },
+    {
+      "zh": "魔力消耗",
+      "en": "Mana Cost"
+    },
+    {
+      "zh": "魔力保留",
+      "en": "Mana Reserved"
+    },
+    {
+      "zh": "仅限",
+      "en": "Limited to"
+    },
+    {
+      "zh": "范围",
+      "en": "Radius"
+    }
+  ],
+  "rarity_values": [
+    {
+      "zh": "稀有",
+      "en": "Rare"
+    },
+    {
+      "zh": "魔法",
+      "en": "Magic"
+    },
+    {
+      "zh": "传奇",
+      "en": "Unique"
+    },
+    {
+      "zh": "普通",
+      "en": "Normal"
+    }
+  ],
+  "item_classes": [
+    {
+      "zh": "胸甲",
+      "en": "Body Armours"
+    },
+    {
+      "zh": "头部",
+      "en": "Helmets"
+    },
+    {
+      "zh": "头盔",
+      "en": "Helmets"
+    },
+    {
+      "zh": "手套",
+      "en": "Gloves"
+    },
+    {
+      "zh": "鞋子",
+      "en": "Boots"
+    },
+    {
+      "zh": "盾",
+      "en": "Shields"
+    },
+    {
+      "zh": "盾牌",
+      "en": "Shields"
+    },
+    {
+      "zh": "戒指",
+      "en": "Rings"
+    },
+    {
+      "zh": "项链",
+      "en": "Amulets"
+    },
+    {
+      "zh": "项链",
+      "en": "Amulets"
+    },
+    {
+      "zh": "护身符",
+      "en": "Amulets"
+    },
+    {
+      "zh": "腰带",
+      "en": "Belts"
+    },
+    {
+      "zh": "爪",
+      "en": "Claws"
+    },
+    {
+      "zh": "匕首",
+      "en": "Daggers"
+    },
+    {
+      "zh": "单手剑",
+      "en": "One Hand Swords"
+    },
+    {
+      "zh": "双手剑",
+      "en": "Two Hand Swords"
+    },
+    {
+      "zh": "细剑",
+      "en": "Thrusting One Hand Swords"
+    },
+    {
+      "zh": "单手斧",
+      "en": "One Hand Axes"
+    },
+    {
+      "zh": "双手斧",
+      "en": "Two Hand Axes"
+    },
+    {
+      "zh": "单手锤",
+      "en": "One Hand Maces"
+    },
+    {
+      "zh": "双手锤",
+      "en": "Two Hand Maces"
+    },
+    {
+      "zh": "法杖",
+      "en": "Wands"
+    },
+    {
+      "zh": "长杖",
+      "en": "Staves"
+    },
+    {
+      "zh": "弓箭",
+      "en": "Bows"
+    },
+    {
+      "zh": "弓",
+      "en": "Bows"
+    },
+    {
+      "zh": "权杖",
+      "en": "Sceptres"
+    },
+    {
+      "zh": "箭袋",
+      "en": "Quivers"
+    },
+    {
+      "zh": "药剂",
+      "en": "Flasks"
+    },
+    {
+      "zh": "功能药剂",
+      "en": "Utility Flasks"
+    },
+    {
+      "zh": "生命药剂",
+      "en": "Life Flasks"
+    },
+    {
+      "zh": "魔力药剂",
+      "en": "Mana Flasks"
+    },
+    {
+      "zh": "复合药剂",
+      "en": "Hybrid Flasks"
+    },
+    {
+      "zh": "珠宝",
+      "en": "Jewels"
+    },
+    {
+      "zh": "鱼竿",
+      "en": "Fishing Rods"
+    }
+  ],
+  "influence_tags": [
+    {
+      "zh": "卓烙总督物品",
+      "en": "Searing Exarch Item"
+    },
+    {
+      "zh": "灼烙总督物品",
+      "en": "Searing Exarch Item"
+    },
+    {
+      "zh": "吞噬天地物品",
+      "en": "Eater of Worlds Item"
+    },
+    {
+      "zh": "塑界者物品",
+      "en": "Shaper Item"
+    },
+    {
+      "zh": "尊师物品",
+      "en": "Elder Item"
+    },
+    {
+      "zh": "圣战士物品",
+      "en": "Crusader Item"
+    },
+    {
+      "zh": "救赎者物品",
+      "en": "Redeemer Item"
+    },
+    {
+      "zh": "狩猎者物品",
+      "en": "Hunter Item"
+    },
+    {
+      "zh": "总督军物品",
+      "en": "Warlord Item"
+    },
+    {
+      "zh": "猎人物品",
+      "en": "Hunter Item"
+    },
+    {
+      "zh": "督军王物品",
+      "en": "Crusader Item"
+    },
+    {
+      "zh": "征服者物品",
+      "en": "Warlord Item"
+    }
+  ],
+  "status_lines": [
+    {
+      "zh": "已污染",
+      "en": "Corrupted"
+    },
+    {
+      "zh": "已腐化",
+      "en": "Corrupted"
+    },
+    {
+      "zh": "已污染",
+      "en": "Corrupted"
+    },
+    {
+      "zh": "已镜像",
+      "en": "Mirrored"
+    },
+    {
+      "zh": "已裂解",
+      "en": "Split"
+    },
+    {
+      "zh": "已贴上",
+      "en": "Foil"
+    }
+  ],
+  "skip_patterns": [
+    "点击右键",
+    "点击左键"
+  ],
+  "mod_suffixes": [
+    "(implicit)",
+    "(augmented)",
+    "(crafted)",
+    "(enchant)",
+    "(fractured)",
+    "(scourge)",
+    "(rune)",
+    "(veiled)",
+    "(synthesis implicit)",
+    "(eldritch implicit)",
+    "(mutated)"
+  ]
+}
