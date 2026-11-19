@@ -143,6 +143,22 @@
     "Min: {0}%": "下限: {0}%",
     "Regenerate {0} Life per second": "每秒再生 {0} 生命",
     "(Not supported in PoB yet)": "（PoB 暂不支持）",
-    "Item base is not supported by the current version.": "当前版本不支持该物品基底。"
+    "Item base is not supported by the current version.": "当前版本不支持该物品基底。",
+    "Language:": "语言:",
+    "Language used for item names, stats and interface text.\\nDefault draws the original English.": "用于物品名、属性和界面文案的语言。\\n默认显示英文原文。",
+    "Translation repository:": "翻译仓库:",
+    "Base URL of a translation repository.\\nA GitHub repo page or a raw-content base both work.": "翻译仓库的基础地址。\\nGitHub 仓库页面地址或 raw 内容地址都可以。",
+    "Check now": "立即检查",
+    "Check on startup": "启动时检查",
+    "Checking for updates...": "正在检查更新...",
+    "Already up to date.": "已是最新。",
+    "Updated {0} of {1} file(s).": "已更新 {0}/{1} 个文件。",
+    "Downloading {0} ({1}/{2})...": "正在下载 {0} ({1}/{2})...",
+    "No translation repository is configured.": "未配置翻译仓库。",
+    "No i18n directory is installed next to the application.": "程序目录下没有 i18n 文件夹。",
+    "The repository manifest is not valid JSON.": "仓库的 manifest 格式无效。",
+    "Could not reach the repository ({0})": "无法连接仓库（{0}）",
+    "Could not download {0} ({1})": "下载 {0} 失败（{1}）",
+    "Could not save {0} ({1})": "保存 {0} 失败（{1}）"
   }
 }
