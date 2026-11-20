@@ -1613,6 +1613,18 @@
     "^7Total Price: ": "^7总价：",
     "^8[Retained] ": "^8[已保留] ",
     "^7This is a special group created for the '": "^7这是为“",
-    "^7This is a special group created for the enemy explosion effect,\nwhich comes from the following sources:": "^7这是为敌人爆炸效果创建的特殊技能组，\n来源如下："
+    "^7This is a special group created for the enemy explosion effect,\nwhich comes from the following sources:": "^7这是为敌人爆炸效果创建的特殊技能组，\n来源如下：",
+    " (Active)": "（当前生效）",
+    " (Forced Active)": "（强制生效）",
+    " (Disabled)": "（已禁用）",
+    " (FullDPS)": "（计入完整DPS）",
+    "Active Skill #{0}:": "主动技能 #{0}：",
+    "^7Active Skill #{0}:": "^7主动技能 #{0}：",
+    "Group %d": "技能组 %d",
+    "^7Active Skill #{0}'s Main Minion Skill:": "^7主动技能 #{0} 的召唤物主技能：",
+    "Active Skill #{0}'s Main Minion Skill:": "主动技能 #{0} 的召唤物主技能：",
+    "^7Inactive Gems:": "^7无效技能石：",
+    "Inactive Gems:": "无效技能石：",
+    "Source: ": "来源："
   }
 }
