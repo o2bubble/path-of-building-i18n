@@ -7,18 +7,18 @@
       "name": "Simplified Chinese",
       "nativeName": "简体中文",
       "files": {
-        "gems.json": "8c791493257a0bffbf4e46f5c48f87cb02787daf",
+        "gems.json": "d200e1b4661b9a7b51b002bf8477229cdcf5647c",
         "item_metadata.json": "88b9e7bb4634b3569fde968296aa936afab73c6f",
-        "items.json": "6992af9e4e4f11a9ce7958d6da4ae3fd7101a5e5",
+        "items.json": "b26b2460ce069fad69ba68c838d78b7ce42d201f",
         "meta.json": "b2b041aa71a3e3f8404d2e15989930b0a3cc11c0",
-        "monsters.json": "c2c390fe441952f1aea6ffc00654d583803ea89f",
-        "passives.json": "8268f7e3ed0ec7e915f670c76519eaaa17202034",
-        "pob-ui.json": "69fc1ee844b69eaf343f5ced181ee0e2349ad5c3",
-        "stats.json": "273af5b704fb2cc9c7d2349b3a397b2c9428ce49",
+        "monsters.json": "3de9f8c101e1b0ee32e66144df1dadfa79fca4ad",
+        "passives.json": "ea1426c47998ee981dd41085f1576cce8ec49094",
+        "pob-ui.json": "61b007224cce98a4cc9175fe9bf6c68afa3ccb75",
+        "stats.json": "cfa69687f21fec876dd567c2c233672382bd53fa",
         "synonyms.json": "3666ad4b89044499c5840a74ef3acb59c59fcfbf",
-        "tags.json": "c7214b78490574e821033fc074d58f65efb72323",
-        "ui.json": "f36e5622d185eacb5ae0ef5c2128b5ea6d3adda5",
-        "uniques.json": "a3e1dd723f687fb76c72656a8cb5c05432054c7f"
+        "tags.json": "fe7b02899d6652bc6c8c76e899cfd8a2cf85af13",
+        "ui.json": "88128dac31ecd2757943c0b1a26ca88fc90b1a9e",
+        "uniques.json": "3c1415597c47743cce75c0e6fc118040bcb21337"
       }
     }
   ]
