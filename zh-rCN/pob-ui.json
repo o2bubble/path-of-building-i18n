@@ -1625,6 +1625,7 @@
     "Active Skill #{0}'s Main Minion Skill:": "主动技能 #{0} 的召唤物主技能：",
     "^7Inactive Gems:": "^7无效技能石：",
     "Inactive Gems:": "无效技能石：",
-    "Source: ": "来源："
+    "Source: ": "来源：",
+    "Have you used a Retaliation Skill Recently?": "你近期是否使用过反击技能？"
   }
 }
