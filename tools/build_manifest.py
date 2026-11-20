@@ -23,6 +23,7 @@ import json
 import os
 import subprocess
 import sys
+import time
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -76,12 +77,29 @@ def main():
             "files": files,
         })
 
+    out = os.path.join(ROOT, "manifest.json")
+
+    # Mirrors cache: a CDN can serve a manifest from hours ago, and the client
+    # would then see nothing to update. Every copy carries the moment it was
+    # built so the client can ask each mirror and use the newest answer.
+    # Keeping the previous stamp when nothing changed leaves the file stable,
+    # so running this twice does not produce a diff.
+    generated = int(time.time())
+    if os.path.exists(out):
+        try:
+            with open(out, encoding="utf-8") as f:
+                previous = json.load(f)
+            if previous.get("locales") == locales and isinstance(previous.get("generated"), int):
+                generated = previous["generated"]
+        except (ValueError, OSError):
+            pass
+
     manifest = {
         "schema": 2,
         "defaultLocale": "zh-rCN",
         "locales": locales,
+        "generated": generated,
     }
-    out = os.path.join(ROOT, "manifest.json")
     with open(out, "w", encoding="utf-8", newline="\n") as f:
         json.dump(manifest, f, ensure_ascii=False, indent=2, sort_keys=False)
         f.write("\n")
