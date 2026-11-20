@@ -9,18 +9,18 @@
       "files": {
         "gems.json": "d200e1b4661b9a7b51b002bf8477229cdcf5647c",
         "item_metadata.json": "88b9e7bb4634b3569fde968296aa936afab73c6f",
-        "items.json": "b26b2460ce069fad69ba68c838d78b7ce42d201f",
+        "items.json": "3fad48feae38fc1c9b85cd6c4a635e5fbe602e27",
         "meta.json": "b2b041aa71a3e3f8404d2e15989930b0a3cc11c0",
         "monsters.json": "3de9f8c101e1b0ee32e66144df1dadfa79fca4ad",
-        "passives.json": "ea1426c47998ee981dd41085f1576cce8ec49094",
+        "passives.json": "7cf0a2a8cea953e61b8bfd93032937cef12cf993",
         "pob-ui.json": "61b007224cce98a4cc9175fe9bf6c68afa3ccb75",
         "stats.json": "cfa69687f21fec876dd567c2c233672382bd53fa",
         "synonyms.json": "3666ad4b89044499c5840a74ef3acb59c59fcfbf",
         "tags.json": "fe7b02899d6652bc6c8c76e899cfd8a2cf85af13",
-        "ui.json": "f541f5a8397d37b599d95f70b400c5e626bc5a5d",
+        "ui.json": "667ed62e9ade1b3884850afd8651cac4a5a19f54",
         "uniques.json": "3c1415597c47743cce75c0e6fc118040bcb21337"
       }
     }
   ],
-  "generated": 1795197599
+  "generated": 1795199676
 }
