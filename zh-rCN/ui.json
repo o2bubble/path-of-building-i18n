@@ -27071,6 +27071,7 @@
     "Cast While Channeling had no base cooldown": "引导时施放没有基础冷却",
     "Condition state": "条件状态",
     "\"Socketed in\" item must be set in order to add an imbued support.\nOnly one imbued support is allowed per item.": "必须先设置「插入位置」物品，才能添加灌注辅助。\n每件物品只能有一个灌注辅助。",
-    "Prefix tag searches with a colon and exclude tags with a dash. e.g. :fire:lightning:-cold:area": "标签搜索以冒号作为前缀，并用减号排除标签。例如：:fire:lightning:-cold:area"
+    "Prefix tag searches with a colon and exclude tags with a dash. e.g. :fire:lightning:-cold:area": "标签搜索以冒号作为前缀，并用减号排除标签。例如：:fire:lightning:-cold:area",
+    "The installed dictionary is newer than the mirror.": "已安装的词典比镜像上的更新。"
   }
 }
