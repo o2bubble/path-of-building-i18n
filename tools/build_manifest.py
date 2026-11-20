@@ -7,12 +7,22 @@
 #
 #   python tools/build_manifest.py
 #
+# The hash describes the bytes the repository publishes, which are the bytes
+# git stores -- not necessarily the bytes in the working copy. A checkout made
+# before .gitattributes landed can still hold CRLF while git's stat cache
+# calls the file clean, and a manifest built from those bytes records a hash
+# that raw.githubusercontent never serves, leaving clients to re-download the
+# file on every check. So committed files are read back from HEAD and
+# uncommitted ones are hashed the way git will store them.
+#
 # The version is bumped by hand in this file when a release is cut; clients
 # ignore it and diff per file, but it makes "which dictionary am I on" easy to
 # answer in a bug report.
 import hashlib
 import json
 import os
+import subprocess
+import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -25,8 +35,24 @@ LOCALE_INFO = {
     },
 }
 
-# Files that describe the locale but are not part of it.
-SKIP = {"meta.json"}
+
+def git(*args):
+    try:
+        return subprocess.run(("git",) + args, cwd=ROOT, check=True,
+                              stdout=subprocess.PIPE, stderr=subprocess.PIPE).stdout
+    except FileNotFoundError:
+        sys.exit("build_manifest: 'git' is required to hash the payload")
+    except subprocess.CalledProcessError as e:
+        sys.exit("build_manifest: git %s failed: %s"
+                 % (" ".join(args), e.stderr.decode("utf-8", "replace").strip()))
+
+
+def published_bytes(rel):
+    """The bytes a push will publish for `rel`."""
+    if not git("status", "--porcelain", "--", rel).strip():
+        return git("cat-file", "blob", "HEAD:" + rel)
+    obj = git("hash-object", "-w", "--", rel).decode().strip()
+    return git("cat-file", "blob", obj)
 
 
 def main():
@@ -39,9 +65,7 @@ def main():
         for name in sorted(os.listdir(path)):
             if not name.endswith(".json"):
                 continue
-            full = os.path.join(path, name)
-            with open(full, "rb") as f:
-                files[name] = hashlib.sha1(f.read()).hexdigest()
+            files[name] = hashlib.sha1(published_bytes(entry + "/" + name)).hexdigest()
         if not files:
             continue
         info = LOCALE_INFO.get(entry, {})
