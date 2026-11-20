@@ -27067,6 +27067,10 @@
     "This is a special group created for the enemy explosion effect,\nwhich comes from the following sources:": "这是一个为敌人爆炸效果创建的特殊组，\n其来源包括：",
     "To import a build it must be exported with \"Export support\" enabled in the import/export tab\n\tAuras with the highest effect will take priority, your curses will take priority over a support's\n\t\n\tAll of these effects can be found in the Calcs tab": "要导入一个构筑，它必须在导入/导出选项卡中勾选\"导出支援\"后导出再使用\n\t效果最高的光环将优先，你的诅咒将优先于辅助的\n\t\n\t所有这些效果都可以在\"计算\"页面中找到",
     "Weighted Sum searches will always sort using descending weighted sum\nAdditional post filtering options can be done these include:\nHighest Stat Value - Sort from highest to lowest Stat Value change of equipping item\nHighest Stat Value / Price - Sorts from highest to lowest by estimated Stat Value per currency\nLowest Price - Sorts from lowest to highest price of retrieved items\nHighest Weight - Displays the order retrieved from trade": "加权总和搜索将始终按加权总和降序排序\n还可以进行以下附加后置筛选选项：\n最高属性值 - 按装备物品的属性值变化从高到低排序\n最高属性值 / 价格 - 按每单位通货的估算属性值从高到低排序\n最低价格 - 按获取物品的价格从低到高排序\n最高权重 - 显示从交易网站获取的顺序",
-    "You can use Ctrl +/- (or Ctrl+Scroll) to zoom in and out and Ctrl+0 to reset.\nThis field also supports different colors.  Using the caret symbol (^) followed by a Hex code or a number (0-9) will set the color.\nBelow are some common color codes PoB uses:": "你可以使用Ctrl +/- (或 Ctrl+滚轮)来缩放大小，使用Ctrl+0来重置。\n此字段还支持不同颜色。使用脱字符符号 (^) 后跟十六进制颜色代码或数字 (0-9) 可设置颜色。\n下方是一些POB使用的常见颜色:"
+    "You can use Ctrl +/- (or Ctrl+Scroll) to zoom in and out and Ctrl+0 to reset.\nThis field also supports different colors.  Using the caret symbol (^) followed by a Hex code or a number (0-9) will set the color.\nBelow are some common color codes PoB uses:": "你可以使用Ctrl +/- (或 Ctrl+滚轮)来缩放大小，使用Ctrl+0来重置。\n此字段还支持不同颜色。使用脱字符符号 (^) 后跟十六进制颜色代码或数字 (0-9) 可设置颜色。\n下方是一些POB使用的常见颜色:",
+    "Cast While Channeling had no base cooldown": "引导时施放没有基础冷却",
+    "Condition state": "条件状态",
+    "\"Socketed in\" item must be set in order to add an imbued support.\nOnly one imbued support is allowed per item.": "必须先设置「插入位置」物品，才能添加灌注辅助。\n每件物品只能有一个灌注辅助。",
+    "Prefix tag searches with a colon and exclude tags with a dash. e.g. :fire:lightning:-cold:area": "标签搜索以冒号作为前缀，并用减号排除标签。例如：:fire:lightning:-cold:area"
   }
 }
